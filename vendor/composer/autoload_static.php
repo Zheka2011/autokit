@@ -121,6 +121,7 @@ class ComposerStaticInit9fe4749ed8e1290c3f0b9930dd931447
         ),
         'M' => 
         array (
+            'Mtolhuys\\LaravelSchematics\\' => 27,
             'Monolog\\' => 8,
         ),
         'L' => 
@@ -390,6 +391,10 @@ class ComposerStaticInit9fe4749ed8e1290c3f0b9930dd931447
         'NunoMaduro\\Collision\\' => 
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/collision/src',
+        ),
+        'Mtolhuys\\LaravelSchematics\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src',
         ),
         'Monolog\\' => 
         array (
@@ -3315,6 +3320,38 @@ class ComposerStaticInit9fe4749ed8e1290c3f0b9930dd931447
         'Monolog\\SignalHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/SignalHandler.php',
         'Monolog\\Test\\TestCase' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Test/TestCase.php',
         'Monolog\\Utils' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Utils.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Migration\\CreateColumnsMigrationAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Migration/CreateColumnsMigrationAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Migration\\CreateModelMigrationAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Migration/CreateModelMigrationAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Migration\\CreateRelationMigrationAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Migration/CreateRelationMigrationAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Migration\\DeleteLastMigrationAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Migration/DeleteLastMigrationAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Migration\\DeleteMigrationAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Migration/DeleteMigrationAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Migration\\Traits\\CreatesMigrations' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Migration/Traits/CreatesMigrations.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Migration\\Traits\\DeletesMigrations' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Migration/Traits/DeletesMigrations.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Model\\CreateModelAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Model/CreateModelAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Model\\DeleteModelAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Model/DeleteModelAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Model\\EditModelAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Model/EditModelAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Relation\\CreateRelationAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Relation/CreateRelationAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Relation\\DeleteRelationAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Relation/DeleteRelationAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Resource\\CreateFormRequestAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Resource/CreateFormRequestAction.php',
+        'Mtolhuys\\LaravelSchematics\\Actions\\Resource\\CreateResourceControllerAction' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Actions/Resource/CreateResourceControllerAction.php',
+        'Mtolhuys\\LaravelSchematics\\Console\\Commands\\Install' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Console/Commands/Install.php',
+        'Mtolhuys\\LaravelSchematics\\Http\\Controllers\\MigrationsController' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Http/Controllers/MigrationsController.php',
+        'Mtolhuys\\LaravelSchematics\\Http\\Controllers\\ModelsController' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Http/Controllers/ModelsController.php',
+        'Mtolhuys\\LaravelSchematics\\Http\\Controllers\\RelationsController' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Http/Controllers/RelationsController.php',
+        'Mtolhuys\\LaravelSchematics\\Http\\Controllers\\SchematicsController' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Http/Controllers/SchematicsController.php',
+        'Mtolhuys\\LaravelSchematics\\Http\\Controllers\\Traits\\HasOptionalActions' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Http/Controllers/Traits/HasOptionalActions.php',
+        'Mtolhuys\\LaravelSchematics\\Http\\Requests\\CreateModelRequest' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Http/Requests/CreateModelRequest.php',
+        'Mtolhuys\\LaravelSchematics\\Http\\Requests\\CreateRelationRequest' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Http/Requests/CreateRelationRequest.php',
+        'Mtolhuys\\LaravelSchematics\\Http\\Requests\\DeleteModelRequest' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Http/Requests/DeleteModelRequest.php',
+        'Mtolhuys\\LaravelSchematics\\Http\\Requests\\DeleteRelationRequest' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Http/Requests/DeleteRelationRequest.php',
+        'Mtolhuys\\LaravelSchematics\\Http\\Requests\\EditModelRequest' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Http/Requests/EditModelRequest.php',
+        'Mtolhuys\\LaravelSchematics\\LaravelSchematicsServiceProvider' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/LaravelSchematicsServiceProvider.php',
+        'Mtolhuys\\LaravelSchematics\\Models\\Migration' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Models/Migration.php',
+        'Mtolhuys\\LaravelSchematics\\Services\\ClassReader' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Services/ClassReader.php',
+        'Mtolhuys\\LaravelSchematics\\Services\\ModelMapper' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Services/ModelMapper.php',
+        'Mtolhuys\\LaravelSchematics\\Services\\RelationMapper' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Services/RelationMapper.php',
+        'Mtolhuys\\LaravelSchematics\\Services\\RuleParser' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Services/RuleParser.php',
+        'Mtolhuys\\LaravelSchematics\\Services\\StubWriter' => __DIR__ . '/..' . '/mtolhuys/laravel-schematics/src/Services/StubWriter.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php',
         'NunoMaduro\\Collision\\Adapters\\Laravel\\Commands\\TestCommand' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Laravel/Commands/TestCommand.php',

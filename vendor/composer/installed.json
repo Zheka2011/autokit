@@ -2148,17 +2148,17 @@
     },
     {
         "name": "livewire/livewire",
-        "version": "v2.2.3",
-        "version_normalized": "2.2.3.0",
+        "version": "v2.2.4",
+        "version_normalized": "2.2.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/livewire/livewire.git",
-            "reference": "0480aa04aa08314dd2ed1b62615d8184e7d3071a"
+            "reference": "b1f5eae5ef5f5942d8d334b4ecb718bac580454f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/livewire/livewire/zipball/0480aa04aa08314dd2ed1b62615d8184e7d3071a",
-            "reference": "0480aa04aa08314dd2ed1b62615d8184e7d3071a",
+            "url": "https://api.github.com/repos/livewire/livewire/zipball/b1f5eae5ef5f5942d8d334b4ecb718bac580454f",
+            "reference": "b1f5eae5ef5f5942d8d334b4ecb718bac580454f",
             "shasum": ""
         },
         "require": {
@@ -2177,7 +2177,7 @@
             "phpunit/phpunit": "^8.4|^9.0",
             "psy/psysh": "@stable"
         },
-        "time": "2020-09-15T02:25:20+00:00",
+        "time": "2020-09-17T17:38:03+00:00",
         "type": "library",
         "extra": {
             "laravel": {
@@ -2428,6 +2428,68 @@
                 "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
                 "type": "tidelift"
             }
+        ]
+    },
+    {
+        "name": "mtolhuys/laravel-schematics",
+        "version": "0.10.3",
+        "version_normalized": "0.10.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mtolhuys/laravel-schematics.git",
+            "reference": "c69a2e85687443c691ed8bd79d88d2f61eafc0b1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mtolhuys/laravel-schematics/zipball/c69a2e85687443c691ed8bd79d88d2f61eafc0b1",
+            "reference": "c69a2e85687443c691ed8bd79d88d2f61eafc0b1",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "require-dev": {
+            "doctrine/dbal": "^2.0",
+            "orchestra/testbench": "^4.0",
+            "phpunit/phpunit": "^8.0"
+        },
+        "time": "2020-03-21T16:04:52+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Mtolhuys\\LaravelSchematics\\LaravelSchematicsServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mtolhuys\\LaravelSchematics\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Maarten Tolhuijs",
+                "email": "mtolhuys@hotmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A interface to help you build your models",
+        "homepage": "https://github.com/mtolhuys/laravel-schematics",
+        "keywords": [
+            "diagram",
+            "eloquent",
+            "laravel",
+            "laravel-schematics",
+            "models",
+            "mtolhuys",
+            "schema",
+            "schematics"
         ]
     },
     {

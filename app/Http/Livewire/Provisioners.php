@@ -19,7 +19,7 @@ class Provisioners extends Component {
 
 	public function render() {
 
-		$this->data = ProvisionersModel::all();
+		$this->data = ProvisionersModel::where('del', 0)->get();
 		return view('livewire.provisioners.index');
 	}
 
@@ -81,7 +81,7 @@ class Provisioners extends Component {
 				'contrakt' => $this->contrakt,
 				'white' => $this->white,
 				'comment' => $this->comment,
-				'del' => $this->del,
+				'del' => 0,
 				'shipping' => $this->shipping,
 				'api' => $this->api,
 			]);
@@ -94,7 +94,11 @@ class Provisioners extends Component {
 	public function destroy($id) {
 		if ($id) {
 			$record = ProvisionersModel::find($id);
-			$record->delete();
+			$record->update([
+
+				'del' => 1,
+
+			]);
 		}
 	}
 }

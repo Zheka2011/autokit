@@ -14,8 +14,13 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/provisioners', function (
 	return view('livewire.provisioners');
 })->name('provisioners');
 
-// Route::get('/provisioners', Provisioners::class);
+Route::middleware(['auth:sanctum', 'verified'])->get('/orders', function () {
+	return view('livewire.orders');
+})->name('orders');
 
-// Route::get('/provisioners', function () {
-// 	return view('livewire.provisioners');
-// });
+Route::middleware(['auth:sanctum', 'verified'])->get('/store', function () {
+	return view('livewire.store');
+})->name('store');
+
+// Route::view('provisioners', 'livewire.provisioners');
+// Route::get('/provisioners', App\Http\Livewire\Provisioners::class);

@@ -2,5 +2,7 @@
     <x-slot name="header">
 
     </x-slot>
-   @livewire('provisioners')
+    <div>
+    	<h1>wer323r</h1>
+    </div>
 </x-app-layout>

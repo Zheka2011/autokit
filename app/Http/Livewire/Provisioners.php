@@ -11,12 +11,6 @@ class Provisioners extends Component {
 
 	public $updateMode = false;
 
-	// public function mount($updateMode) {
-
-	// 	$this->updateMode = $updateMode;
-
-	// }
-
 	public function render() {
 
 		$this->data = ProvisionersModel::where('del', 0)->get();

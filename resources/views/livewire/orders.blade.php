@@ -2,7 +2,5 @@
     <x-slot name="header">
 
     </x-slot>
-    <div>
-    	<h1>62626fe</h1>
-    </div>
+    @livewire('orders')
 </x-app-layout>
